@@ -31,10 +31,6 @@ nav {
   padding: 0.5rem 2rem;
 }
 
-body {
-  min-height: 3000px;
-}
-
 nav .container .material-icons {
   font-size: 2rem;
 }
@@ -84,28 +80,9 @@ nav .container .material-icons {
 /* End Of Top Course */
 
 /* What student say section */
-.what-student-say {
-  margin-top: 10rem;
-}
-.what-student-say h5 {
-  font-weight: 300;
-  font-style: italic;
-  font-size: 32px;
-}
-.what-student-say h2 {
-  margin-bottom: 50px;
-}
-
-.what-student-say .figure img {
+.container .carousel-item img {
   width: 100px;
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
-
-.what-student-say .figure h5 {
-  font-size: 1.7rem;
-  font-weight: 400;
-  font-style: normal;
+  height: 100px;
 }
 /* End of What student say section */
 
