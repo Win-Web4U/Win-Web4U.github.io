@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+nav {
+  background-color: rgb(87, 87, 243);
+}
+
+.jumbotron {
+  background-color: rgb(87, 87, 243);
+  font-family: "Source Sans Pro", sans-serif;
+  padding-top: 7rem;
+}
+
+.jumbotron {
+  margin-top: 50px;
+}
+
+.jumbotron h1 {
+  font-weight: 600;
+}
+
+.jumbotron p {
+  font-weight: 400;
+  color: rgb(211, 211, 211);
+}
+
+.jumbotron a {
+  padding: 0.5rem 2rem;
+}
+
+body {
+  min-height: 3000px;
+}
+
+nav .container .material-icons {
+  font-size: 2rem;
+}
+
+/* Info Panel */
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: 0px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.container .info-panel .col-lg-Respon {
+  border-right: 3px solid rgb(219, 219, 219);
+}
+
+.container .margin-for-info-panel {
+  margin-bottom: 10rem;
+}
+/* End on Info Panel */
+
+/* Top Course */
+.container .card1 img {
+  border-radius: 15px 20px;
+}
+.container .card1 {
+  border-radius: 15px;
+}
+
+.container .card-body .card-text {
+  color: rgb(121, 121, 121);
+  font-weight: 600;
+}
+
+.container .rating {
+  margin-top: -10px;
+}
+
+.container .card1 .btn-color-1 {
+  background-color: rgb(0, 184, 0);
+}
+
+.container .card1 .btn-color-2 {
+  background-color: rgb(255, 23, 158);
+}
+/* End Of Top Course */
+
+/* What student say section */
+.what-student-say {
+  margin-top: 10rem;
+}
+.what-student-say h5 {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 32px;
+}
+.what-student-say h2 {
+  margin-bottom: 50px;
+}
+
+.what-student-say .figure img {
+  width: 100px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.what-student-say .figure h5 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  font-style: normal;
+}
+/* End of What student say section */
+
+/* Icon Materialize */
+.container .info-panel-icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.container h2-for-top-course {
+  margin-bottom: 1.5rem;
+}
+
+.container .card1 .profile-teacher {
+  font-size: 2rem;
+  margin-top: 4px;
+}
+
+.container .card1 .rating {
+  font-size: 2rem;
+  margin-top: -15px;
+}
+
+.container .card1 .text-for-rating {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: -3px;
+}
+
+/* Tab mode min-height */
+@media (min-width: 992px) {
+  nav .container a:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #fff;
+    width: 50%;
+    margin: auto;
+  }
+}
+
+/* Tab mode max-height*/
+@media (max-width: 992px) {
+  .container .info-panel .col-lg-Respon {
+    border-right: none;
+    border-bottom: 3px solid rgb(219, 219, 219);
+    margin-bottom: 30px;
+  }
+
+  .container .info-panel .col-lg-Respon::after {
+    width: 50%;
+  }
+
+  .container .info-panel-icon {
+    margin-bottom: 15px;
+  }
+}
+/* End Of Tab */
+
+/* Phone Mode Max-Width */
+@media (max-width: 575.98px) {
+  .container .card1 {
+    margin: auto;
+  }
+
+  .what-student-say h5 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 300px) {
+  .container .card1 {
+    margin: auto;
+  }
+}
+/* End Of Phone Mode */
