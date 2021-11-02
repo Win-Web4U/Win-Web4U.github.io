@@ -1,27 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap");
+
 body {
   font-family: "Source Sans Pro", sans-serif;
+  background: rgb(235, 235, 235);
+  /* font-family: "Playfair Display", serif;
+  font-family: "Source Sans Pro", sans-serif; */
 }
 
-nav {
-  background-color: rgb(87, 87, 243);
+/* Navbar */
+.container .navbar-brand {
+  color: rgb(100, 100, 100);
+}
+/* End of navbar */
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 8rem;
 }
 
+.jumbotron h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.container i {
+}
+
+.imageForJumbotron {
+  width: 300px;
+  margin-left: 5rem;
+}
+/* End of Jumbotron */
+
+.container .nav-link {
+  color: rgb(100, 100, 100);
+  font-weight: 600;
+}
 @media (min-width: 992px) {
   nav .container a:hover::after {
     content: "";
     display: block;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #000000;
     width: 50%;
     margin: auto;
   }
 }
 
+/* Large */
 @media (max-width: 992px) {
   .container .info-panel .col-lg-Respon {
     border-right: none;
-    border-bottom: 3px solid rgb(219, 219, 219);
+    border-bottom: 3px solid black;
     margin-bottom: 30px;
   }
 
@@ -33,3 +64,5 @@ nav {
     margin-bottom: 15px;
   }
 }
+
+/* Phone Mode */
