@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+nav {
+  background-color: rgb(87, 87, 243);
+}
+
+@media (min-width: 992px) {
+  nav .container a:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #fff;
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .container .info-panel .col-lg-Respon {
+    border-right: none;
+    border-bottom: 3px solid rgb(219, 219, 219);
+    margin-bottom: 30px;
+  }
+
+  .container .info-panel .col-lg-Respon::after {
+    width: 50%;
+  }
+
+  .container .info-panel-icon {
+    margin-bottom: 15px;
+  }
+}
