@@ -38,8 +38,9 @@ body {
   color: rgb(100, 100, 100);
   font-weight: 600;
 }
+
 @media (min-width: 992px) {
-  nav .container a:hover::after {
+  nav .container .nav-link:hover::after {
     content: "";
     display: block;
     border-bottom: 2px solid #000000;

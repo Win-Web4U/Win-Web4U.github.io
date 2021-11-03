@@ -118,7 +118,7 @@ nav .container .material-icons {
 
 /* Tab mode min-height */
 @media (min-width: 992px) {
-  nav .container a:hover::after {
+  nav .container .nav-link:hover::after {
     content: "";
     display: block;
     border-bottom: 2px solid #fff;
