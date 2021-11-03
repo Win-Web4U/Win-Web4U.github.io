@@ -10,6 +10,10 @@ body {
 }
 
 /* Navbar */
+nav {
+  background-color: rgb(235, 235, 235);
+}
+
 .container .navbar-brand {
   color: rgb(100, 100, 100);
 }
@@ -25,13 +29,15 @@ body {
   font-weight: 600;
 }
 
-.container i {
-}
-
 .imageForJumbotron {
   width: 300px;
   margin-left: 5rem;
 }
+
+.jumbotron .rounded-for-btn {
+  border-radius: 10px;
+}
+
 /* End of Jumbotron */
 
 .container .nav-link {
